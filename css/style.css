@@ -128,3 +128,8 @@
   background-image: url("../assets/portfolio/work8.jpg");
 
 }
+.mail{
+  height: 70vh;
+  background-image: url("../assets/backgrounds/c_image.jpg");
+  background-size: cover;
+}
