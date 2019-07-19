@@ -170,7 +170,7 @@
   padding: 20px 10px;
 }
 .icons{
-  height: 20vh;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -194,8 +194,6 @@
   .top .img2{
     position: relative;
     top :-120px;
-
-
   }
   .top h2{
 
