@@ -1,0 +1,12 @@
+.top {
+  background-image: url("../assets/backgrounds/h_img.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding-top: 100px;
+  text-transform: uppercase;
+}
