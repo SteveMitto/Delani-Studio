@@ -63,5 +63,18 @@ $(document).ready(function(){
       })
     })
 
+    // What we do
+
+    var desImg=$(".des-img");
+    var desText=$("#design");
+
+    desImg.click(function(){
+      desImg.hide()
+      desText.slideDown();
+    })
+    desText.click(function(){
+      desText.hide();
+      desImg.show()
+    })
 
 });
