@@ -88,4 +88,16 @@ $(document).ready(function(){
       devText.hide();
       devImg.show()
     })
+
+    var proImg=$(".pro-img");
+    var proText=$("#product-management")
+
+    proImg.click(function(){
+      proImg.hide()
+      proText.slideDown();
+    })
+    proText.click(function(){
+      proText.hide();
+      proImg.show()
+    })
 });
