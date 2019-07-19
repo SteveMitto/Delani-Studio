@@ -69,35 +69,35 @@ $(document).ready(function(){
     var desText=$("#design");
 
     desImg.click(function(){
-      desImg.hide()
-      desText.slideDown();
+      desImg.toggle()
+      desText.toggle();
     })
     desText.click(function(){
-      desText.hide();
-      desImg.show()
+      desText.toggle();
+      desImg.toggle()
     })
 
     var devImg=$(".dev-img");
     var devText=$("#development");
 
     devImg.click(function(){
-      devImg.hide()
-      devText.slideDown();
+      devImg.toggle()
+      devText.toggle();
     })
     devText.click(function(){
-      devText.hide();
-      devImg.show()
+      devText.toggle();
+      devImg.toggle()
     })
 
     var proImg=$(".pro-img");
     var proText=$("#product-management")
 
     proImg.click(function(){
-      proImg.hide()
-      proText.slideDown();
+      proImg.toggle()
+      proText.toggle();
     })
     proText.click(function(){
-      proText.hide();
-      proImg.show()
+      proText.toggle();
+      proImg.toggle()
     })
 });
