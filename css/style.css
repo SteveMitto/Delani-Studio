@@ -133,3 +133,17 @@
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
 }
+#target input{
+  background: transparent;
+  border: 1px white solid;
+  color: white;
+}
+#target textarea{
+  padding: 10px;
+  background: transparent;
+  border: 1px white solid;
+  color: white;
+}
+#target ::placeholder{
+  color:white;
+}
