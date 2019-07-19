@@ -12,15 +12,17 @@ To set up this project, you will need to clone it by typing `git clone https://g
 Then depending on the type of text editor your using, `atom .`(for Atom ) and `code .`(for visual studio code)
 
 ## Link to website
-To view this project on the web, folow this link -->  https://stevemitto.github.io/Delani-Studio
+To view this project on the web, follow this link -->  https://stevemitto.github.io/Delani-Studio
 
 ## Bugs and errors
+1.The responsiveness of the website works on just the phones and laptops. Adjusting the chrome tab doesn't work.
+2.The hover paragraph may glitch when the mouse is over the paragraph
 
 ## Technology Used
-To develope this project, i will use Jquery ,HTML and CSS.
+To develop this project, i will use Jquery ,HTML and CSS.
 
 ## Contact Information
-Incase of any futher explanation,send me an email on mittosteve@gmail.com
+In case of any further explanation,send me an email on mittosteve@gmail.com
 
 ## License and Copyright Information
 MIT License
