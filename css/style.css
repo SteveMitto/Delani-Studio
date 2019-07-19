@@ -154,3 +154,15 @@
 #target ::placeholder{
   color:white;
 }
+.icon img{
+  padding: 20px 10px;
+}
+.icons{
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
