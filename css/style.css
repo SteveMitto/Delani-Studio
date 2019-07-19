@@ -84,6 +84,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+.portfolio-images-1 .port::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left:0px;
+  width: 240px;
+  height: 210px;
+  background-color: rgba(255,255,255,.3);
+  display: none;
 }
 .portfolio-images-1 .port p{
   color: black;
