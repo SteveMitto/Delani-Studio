@@ -133,6 +133,13 @@
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
 }
+.mail h3 {
+  text-align:center;
+  color: white;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
 #target input{
   background: transparent;
   border: 1px white solid;
