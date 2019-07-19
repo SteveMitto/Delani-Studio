@@ -77,4 +77,15 @@ $(document).ready(function(){
       desImg.show()
     })
 
+    var devImg=$(".dev-img");
+    var devText=$("#development");
+
+    devImg.click(function(){
+      devImg.hide()
+      devText.slideDown();
+    })
+    devText.click(function(){
+      devText.hide();
+      devImg.show()
+    })
 });
