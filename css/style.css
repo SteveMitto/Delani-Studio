@@ -10,95 +10,106 @@
   padding-top: 100px;
   text-transform: uppercase;
 }
-.about{
+
+.about {
   height: 50vh;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.about h3{
+
+.about h3 {
   text-transform: uppercase;
 }
-.about p{
-  padding:0px 100px;
+
+.about p {
+  padding: 0px 100px;
   line-height: 30px
 }
-.service{
+
+.service {
   height: 50vh;
   background-image: url("../assets/backgrounds/s_image.jpg");
   background-size: cover;
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
 }
-.service h3{
+
+.service h3 {
   text-transform: uppercase;
   color: white;
   font-weight: bold;
 }
-.service p{
+
+.service p {
   color: white;
-  padding:0px 60px;
+  padding: 0px 60px;
   line-height: 40px
 }
-.projects h3{
+
+.projects h3 {
   text-align: center;
   padding-top: 40px;
   padding-bottom: 40px;
-  /* padding-right: 70px; */
   font-weight: bold;
-  text-transform:uppercase;
+  text-transform: uppercase;
 }
-.service-icons{
+
+.service-icons {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   text-align: center;
 }
-.service-icons h6{
+
+.service-icons h6 {
   text-transform: uppercase;
   font-size: 14px;
   font-weight: bold;
   padding-top: 10px;
 }
-.portfolio{
-  /* padding: -20px; */
+
+.portfolio {
   display: flex;
   flex-direction: column;
 }
-.portfolio-images-1{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+
+.portfolio-images-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
-.portfolio-images-1 .port{
+
+.portfolio-images-1 .port {
   height: 210px;
   width: 240px;
-  /* margin: 1px; */
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
 }
-.portfolio-images-1 .port::before{
+
+.portfolio-images-1 .port::before {
   content: '';
   position: absolute;
   top: 0;
-  left:0px;
+  left: 0px;
   width: 240px;
   height: 210px;
-  background-color: rgba(255,255,255,.3);
+  background-color: rgba(255, 255, 255, .3);
   display: none;
 }
-.portfolio-images-1 .port p{
+
+.portfolio-images-1 .port p {
   color: black;
-  background-color:white;
+  background-color: white;
   width: 100%;
   text-align: center;
   padding: 10px;
@@ -107,168 +118,170 @@
   display: none;
 }
 
-.portfolio-images-1 .port1{
+.portfolio-images-1 .port1 {
   background-image: url("../assets/portfolio/work4.jpg");
-
 }
-.portfolio-images-1 .port2{
+
+.portfolio-images-1 .port2 {
   background-image: url("../assets/portfolio/work3.jpg");
-
 }
-.portfolio-images-1 .port3{
+
+.portfolio-images-1 .port3 {
   background-image: url("../assets/portfolio/work2.jpg");
-
 }
-.portfolio-images-1 .port4{
+
+.portfolio-images-1 .port4 {
   background-image: url("../assets/portfolio/work1.jpg");
-
 }
-.portfolio-images-1 .port5{
+
+.portfolio-images-1 .port5 {
   background-image: url("../assets/portfolio/work5.jpg");
-
 }
-.portfolio-images-1 .port6{
+
+.portfolio-images-1 .port6 {
   background-image: url("../assets/portfolio/work6.jpg");
-
 }
-.portfolio-images-1 .port7{
+
+.portfolio-images-1 .port7 {
   background-image: url("../assets/portfolio/work7.jpg");
-
 }
-.portfolio-images-1 .port8{
+
+.portfolio-images-1 .port8 {
   background-image: url("../assets/portfolio/work8.jpg");
-
 }
-.mail{
+
+.mail {
   height: 70vh;
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
 }
+
 .mail h3 {
-  text-align:center;
+  text-align: center;
   color: white;
   padding: 20px 10px;
   text-transform: uppercase;
   font-weight: bolder;
 }
-#target input{
+
+#target input {
   background: transparent;
   border: 1px white solid;
   color: white;
 }
-#target textarea{
-  margin:0 237px;
+
+#target textarea {
+  margin: 0 237px;
   padding: 10px;
   background: transparent;
   border: 1px white solid;
   color: white;
 }
-#target ::placeholder{
-  color:white;
+
+#target ::placeholder {
+  color: white;
 }
-.icon img{
+
+.icon img {
   padding: 20px 10px;
 }
-.icons{
+
+.icons {
   height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-
 }
+
 #design {
   line-height: 27px;
   display: none;
 }
+
 #development {
   line-height: 27px;
   display: none;
 }
-#product-management{
+
+#product-management {
   line-height: 27px;
   display: none;
 }
-@media only screen  and (min-device-width: 320px)  and (max-device-width: 480px){
-  .top .img2{
-    position: relative;
-    top :-120px;
-  }
-  .top h2{
 
-  font-size: 30px;
-  font-weight: bold;
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .top .img2 {
+    position: relative;
+    top: -120px;
   }
-  .top p{
-    /* margin-top: 50px;*/
+
+  .top h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .top p {
     text-align: center;
     font-size: 15px;
   }
 
-  .about h3{
-    margin:10px;
-    font-size:20px;
+  .about h3 {
+    margin: 10px;
+    font-size: 20px;
     font-weight: bold;
   }
-  .about p{
+
+  .about p {
     padding: 0;
     font-size: 11px;
     line-height: 20px;
   }
-  .service h3{
-    font-size:20px;
+
+  .service h3 {
+    font-size: 20px;
     font-weight: bold;
   }
-  .service p{
+
+  .service p {
     padding: 0;
     font-size: 10px;
     line-height: 10px;
   }
-  .projects h3{
+
+  .projects h3 {
     font-size: 20px;
   }
-  /*.service-icons{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-size: 40px;
 
-  }
-  .service-icons h6{
-    font-size: 40px;
-  }
-  .col-md-4{
-    max-width: 90%;
-  }*/
-  .portfolio-images-1{
+  .portfolio-images-1 {
     display: flex;
     flex-direction: column;
   }
-  .portfolio-images-1 .port{
+
+  .portfolio-images-1 .port {
     margin: 10px 0;
-    /* height: 680px; */
-    background-size:cover;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 80%;
   }
-  .portfolio-images-1 .port p{
+
+  .portfolio-images-1 .port p {
     font-size: 20px;
-    letter-spacing:10px
+    letter-spacing: 10px
   }
 
-  #target textarea{
+  #target textarea {
     margin: 10px 15px;
-    /* font-size: 20px; */
-    width:90%;
+    width: 90%;
     height: 100px;
   }
-  .icons{
+
+  .icons {
     height: 200px;
   }
-  .icons img{
+
+  .icons img {
     width: 50px;
   }
 }
