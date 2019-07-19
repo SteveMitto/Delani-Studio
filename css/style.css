@@ -157,6 +157,7 @@
   color: white;
 }
 #target textarea{
+  margin:0 237px;
   padding: 10px;
   background: transparent;
   border: 1px white solid;
