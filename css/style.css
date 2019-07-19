@@ -10,3 +10,18 @@
   padding-top: 100px;
   text-transform: uppercase;
 }
+.about{
+  height: 50vh;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about h3{
+  text-transform: uppercase;
+}
+.about p{
+  padding:0px 60px;
+  line-height: 30px
+}
