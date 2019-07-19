@@ -177,3 +177,7 @@
   text-align: center;
 
 }
+#design {
+  line-height: 27px;
+  display: none;
+}
