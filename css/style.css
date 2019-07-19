@@ -189,3 +189,87 @@
   line-height: 27px;
   display: none;
 }
+@media only screen  and (min-device-width: 320px)  and (max-device-width: 480px){
+  .top .img2{
+    position: relative;
+    top :-120px;
+
+
+  }
+  .top h2{
+
+  font-size: 30px;
+  font-weight: bold;
+  }
+  .top p{
+    /* margin-top: 50px;*/
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .about h3{
+    margin:10px;
+    font-size:20px;
+    font-weight: bold;
+  }
+  .about p{
+    padding: 0;
+    font-size: 11px;
+    line-height: 20px;
+  }
+  .service h3{
+    font-size:20px;
+    font-weight: bold;
+  }
+  .service p{
+    padding: 0;
+    font-size: 10px;
+    line-height: 10px;
+  }
+  .projects h3{
+    font-size: 20px;
+  }
+  /*.service-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+  }
+  .service-icons h6{
+    font-size: 40px;
+  }
+  .col-md-4{
+    max-width: 90%;
+  }*/
+  .portfolio-images-1{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio-images-1 .port{
+    margin: 10px 0;
+    /* height: 680px; */
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 80%;
+  }
+  .portfolio-images-1 .port p{
+    font-size: 20px;
+    letter-spacing:10px
+  }
+
+  #target textarea{
+    margin: 10px 15px;
+    /* font-size: 20px; */
+    width:90%;
+    height: 100px;
+  }
+  .icons{
+    height: 200px;
+  }
+  .icons img{
+    width: 50px;
+  }
+}
