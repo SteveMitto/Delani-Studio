@@ -100,4 +100,30 @@ $(document).ready(function(){
       proText.toggle();
       proImg.toggle()
     })
+
+    //form
+    var email=[]
+    $("form#target").submit(function(event){
+      if( $(".name").val() === ""){
+        alert("Whats your name?");
+        return false;
+      }else{
+        email.push($(".name").val());
+      }
+      if ( $(".email").val() === "")  {
+        alert("Whats your email?");
+        return false;
+      }else{
+        email.push($(".email").val());
+      }
+      if( $("textarea").val() === "" && $("textarea").val().length < 20 ){
+         alert("Message is to short")
+          return false;
+        }else{
+          email.push($("textarea").val())
+        }
+      event.preventDefault()
+      alert("Thank you! Your email was recieved")
+
+    })
 });
