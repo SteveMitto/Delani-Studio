@@ -154,7 +154,7 @@
 }
 
 .mail {
-  height: 70vh;
+  height: 500px;
   background-image: url("../assets/backgrounds/c_image.jpg");
   background-size: cover;
 }
@@ -190,6 +190,7 @@
 }
 
 .icons {
+  padding-top:20px;
   height: 200px;
   display: flex;
   flex-direction: column;
