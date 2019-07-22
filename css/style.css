@@ -118,6 +118,7 @@
   font-weight: bold;
   text-transform: uppercase;
   display: none;
+  z-index: 2;
 }
 
 .portfolio-images-1 .port1 {
