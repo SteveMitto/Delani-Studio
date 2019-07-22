@@ -97,7 +97,7 @@
   position: relative;
 }
 
-.portfolio-images-1 .port::before {
+/* .portfolio-images-1 .port::before {
   content: '';
   position: absolute;
   top: 0;
@@ -107,7 +107,7 @@
   background-color: rgba(0, 0, 0, .7);
   z-index:1;
   /* display: none; */
-}
+} */
 
 .portfolio-images-1 .port p {
   color: black;
